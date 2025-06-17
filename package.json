@@ -1,22 +1,28 @@
 {
-  "name": "rest-api-express",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/faizalanwar/rest-api-express-js.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/faizalanwar/rest-api-express-js/issues"
-  },
-  "homepage": "https://github.com/faizalanwar/rest-api-express-js#readme",
-  "description": "",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "rest-api-express",
+    "version": "1.0.0",
+    "main": "app/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/faizalanwar/rest-api-express-js.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/faizalanwar/rest-api-express-js/issues"
+    },
+    "homepage": "https://github.com/faizalanwar/rest-api-express-js#readme",
+    "description": "",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.2",
+        "mysql2": "^3.14.1",
+        "nodemon": "^3.1.10",
+        "save": "^2.9.0",
+        "sequelize": "^6.37.7"
+    }
 }
